@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  outline: none;
+}
+
+input:not(.error):focus {
+  border: 2px solid #26bbc3;
+}
